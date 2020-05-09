@@ -1,0 +1,37 @@
+body {
+    background: #494b4f;
+    color: #81d8d0;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Crimson Text', serif;
+}
+
+header {
+    max-width: 300px;
+    margin: 0 auto;
+}
+span {
+    cursor: pointer;
+}
+.square {
+    background-color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 475px;
+    height: 475px;
+    background-color: #d881b1;
+    border: 5px solid #d881b1;
+}

@@ -1,11 +1,11 @@
 const container = document.querySelector('div.container');
-const size = 475;
+const size = 525;
 const resetLink = document.querySelector('p');
 const init = 16;
 const colored = "#81d8d0"
 
 function createGrid(grid) {
-    
+
     let squareSize = ((size) / (grid)).toFixed(4);
     for (i = 0; i < grid; i++) {
         let gridRow = document.createElement('div')
